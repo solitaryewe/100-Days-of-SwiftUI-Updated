@@ -2,69 +2,66 @@
 //  ContentView.swift
 //  WeSplit
 //
-//  Created by Woolly on 9/26/20.
-//  Copyright © 2020 Woolly. All rights reserved.
+//  Created by Woolly on 4/12/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @State private var checkAmount = ""
-//    @State private var numberOfPeople = 2
-    // Challenge 3
-    @State private var numberOfPeople = ""
-    @State private var tipPercentage = 2
+    @State private var checkAmount = 0.0
+    @State private var numberOfPeople = 2
+    @State private var tipPercentage = 20
+    @FocusState private var amountIsFocused: Bool
     
     let tipPercentages = [10, 15, 20, 25, 0]
     
-    var orderAmount: Double { Double(checkAmount) ?? 0 }
-    var tipValue: Double {
-        let tipSelection = Double(tipPercentages[tipPercentage])
-        return orderAmount * (tipSelection / 100)
-    }
-    var grandTotal: Double { return tipValue + orderAmount }
     var totalPerPerson: Double {
-//        let peopleCount = Double(numberOfPeople + 2)
-        let peopleCount = Int(numberOfPeople) ?? 1
-        return grandTotal / Double(peopleCount)
+        return ((checkAmount + (Double(tipPercentage)/100 * checkAmount)) / Double(numberOfPeople))
     }
     
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("Your Order")) {
-                    TextField("Amount", text: $checkAmount)
+                Section {
+                    TextField("Check Amount", value: $checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
                         .keyboardType(.decimalPad)
-//                    Picker("Number of People", selection: $numberOfPeople) {
-//                        ForEach(2..<25) {
-//                            Text("\($0) people")
-//                        }
-//                    }
-                    // Challenge 3
-                    TextField("Number of People", text: $numberOfPeople)
-                        .keyboardType(.numberPad)
-                }
-                
-                Section(header: Text("Tip Amount")) {
-                    Picker("Tip Percentage", selection: $tipPercentage) {
-                        ForEach(0..<tipPercentages.count) {
-                            Text("\(self.tipPercentages[$0])%")
+                        .focused($amountIsFocused)
+                    Picker("Number of People", selection: $numberOfPeople) {
+                        ForEach(2..<100, id: \.self) {
+                            Text("\($0) people")
                         }
-                    }.pickerStyle(SegmentedPickerStyle())
+                    }
                 }
                 
-                // Challenge 2
-                Section(header: Text("Total Amount")) {
-                    Text("$\(grandTotal, specifier: "%.2f")")
+                Section {
+                    Picker("Tip Percentage", selection: $tipPercentage) {
+                        ForEach(tipPercentages, id: \.self) {
+                            Text($0, format: .percent)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text("Tip Amount")
                 }
                 
-                // Challenge 1
-                Section(header: Text("Amount Per Person")) {
-                    Text("$\(totalPerPerson, specifier: "%.2f")")
+                Section {
+                    Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                } header: {
+                    Text("Total per Person")
                 }
-            }.navigationBarTitle("WeSplit")
+            }
+            .navigationTitle("WeSplit")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done") {
+                        amountIsFocused = false
+                    }
+                }
+            }
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
