@@ -9,4 +9,4 @@ https://www.hackingwithswift.com/books/ios-swiftui/wesplit-introduction
 
 ## Screenshots
 
-![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-large.png)
+![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-large.png) ![Project 1 (Challenges) - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-challenges-large.png)

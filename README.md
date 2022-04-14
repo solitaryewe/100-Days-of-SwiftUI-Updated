@@ -13,7 +13,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | Type | Completion |
 | -------- | :----: |
 | Projects | 1 / 19 |
-| Project Challenges | 0 / 57 |
+| Project Challenges | 3 / 57 |
 | Challenge Days | 0 / 1 |
 | Milestone Projects | 0 / 6 |
 
@@ -21,4 +21,4 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 
 | Project | Screenshots |
 | ------- | ---------- |
-| [Project 1](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Project-01) <br> *WeSplit* | [![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-large.png) |
+| [Project 1](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Project-01) <br> *WeSplit* | [![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-large.png) [![Project 1 (Challenges) - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-challenges-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-challenges-large.png) |

@@ -14,9 +14,15 @@ struct ContentView: View {
     @FocusState private var amountIsFocused: Bool
     
     let tipPercentages = [10, 15, 20, 25, 0]
+    // Bonus Challenge
+    let currencyCode: FloatingPointFormatStyle<Double>.Currency = .currency(code: Locale.current.currencyCode ?? "USD")
     
+    // Challenge 2
+    var totalCheckAmount: Double {
+        return (checkAmount + (Double(tipPercentage)/100 * checkAmount))
+    }
     var totalPerPerson: Double {
-        return ((checkAmount + (Double(tipPercentage)/100 * checkAmount)) / Double(numberOfPeople))
+        return (totalCheckAmount / Double(numberOfPeople))
     }
     
     var body: some View {
@@ -35,19 +41,29 @@ struct ContentView: View {
                 
                 Section {
                     Picker("Tip Percentage", selection: $tipPercentage) {
-                        ForEach(tipPercentages, id: \.self) {
+                        //ForEach(tipPercentages, id: \.self) {
+                        // Challenge 3
+                        ForEach(0..<101, id: \.self) {
                             Text($0, format: .percent)
                         }
                     }
-                    .pickerStyle(.segmented)
+                    //.pickerStyle(.segmented)
                 } header: {
                     Text("Tip Amount")
                 }
                 
                 Section {
-                    Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                    Text(totalPerPerson, format: currencyCode)
                 } header: {
-                    Text("Total per Person")
+                    // Challenge 1
+                    Text("Amount per Person")
+                }
+                
+                Section {
+                    Text(totalCheckAmount, format: currencyCode)
+                } header: {
+                    // Challenge 2
+                    Text("Total Check Amount")
                 }
             }
             .navigationTitle("WeSplit")
