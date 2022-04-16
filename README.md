@@ -14,7 +14,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | -------- | :----: |
 | Projects | 1 / 19 |
 | Project Challenges | 3 / 57 |
-| Challenge Days | 0 / 1 |
+| Challenge Days | 1 / 1 |
 | Milestone Projects | 0 / 6 |
 
 ## Projects
@@ -22,3 +22,4 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | Project | Screenshots |
 | ------- | ---------- |
 | [Project 1](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Project-01) <br> *WeSplit* | [![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-large.png) [![Project 1 (Challenges) - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-challenges-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-01/Screenshots/project01-challenges-large.png) |
+| [Challenge Day](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Challenge-Day) <br> *Unit Converter* | [![Challenge Day - Unit Converter](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day1-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day1-large.png) [![Challenge Day - Unit Converter](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day2-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day2-large.png) |
