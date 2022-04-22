@@ -61,6 +61,8 @@ struct ContentView: View {
                 
                 Section {
                     Text(totalCheckAmount, format: currencyCode)
+                    // Project 3, Challenge 1
+                        .foregroundColor(tipPercentage == 0 ? .red : .black)
                 } header: {
                     // Challenge 2
                     Text("Total Check Amount")
