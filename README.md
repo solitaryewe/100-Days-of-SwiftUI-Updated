@@ -15,7 +15,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | Projects | 3 / 19 |
 | Project Challenges | 9 / 57 |
 | Challenge Days | 1 / 1 |
-| Milestone Projects | 0 / 6 |
+| Milestone Projects | 1 / 6 |
 
 ## Projects
 
@@ -25,3 +25,4 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | [Challenge Day](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Challenge-Day) <br> *Unit Converter* | [![Challenge Day - Unit Converter](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day1-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day1-large.png) [![Challenge Day - Unit Converter](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day2-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Challenge-Day/Screenshots/challenge-day2-large.png) |
 | [Project 2](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Project-02) <br> *Guess the Flag* | [![Project 2 - Guess the Flag](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-02/Screenshots/project2-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-02/Screenshots/project2-large.png) [![Project 2 - Guess the Flag](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-02/Screenshots/project2-challenges-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-02/Screenshots/project2-challenges-large.png) |
 | [Project 3](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Project-03) <br> *Views and Modifiers* | [![Project 3 - Views and Modifiers](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-03/Screenshots/project3-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Project-03/Screenshots/project3-large.png) |
+| [Milestone 1](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/tree/main/Milestone-01) <br> *Rock Paper Scissors* | [![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Milestone-01/Screenshots/milestone1a-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Milestone-01/Screenshots/milestone1a-large.png) [![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Milestone-01/Screenshots/milestone1b-small.png)](https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated/blob/main/Milestone-01/Screenshots/milestone1b-large.png) |
